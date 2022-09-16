@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/box.xsd">
+	<import>
+		<box identifier="com.uz.wcf.warnings.LatestWarnedMembers">
+			<name language="de">Zuletzt verwarnte Mitglieder</name>
+			<name language="en">Latest warned Members</name>
+			<boxType>system</boxType>
+			<objectType>com.uz.wcf.warnings.latestWarnedMembers</objectType>
+			<position>sidebarRight</position>
+			<showHeader>1</showHeader>
+			<visibleEverywhere>0</visibleEverywhere>
+			<sortField>uzWarnings</sortField>
+			<sortOrder>DESC</sortOrder>
+			
+			<content language="de">
+				<title>Zuletzt verwarnte Mitglieder</title>
+			</content>
+			<content language="en">
+				<title>Latest warned Members</title>
+			</content>
+		</box>
+		
+		<box identifier="com.uz.wcf.warnings.MostWarnedMembers">
+			<name language="de">Mitglieder mit den meisten Verwarnungen</name>
+			<name language="en">Members with the most warnings</name>
+			<boxType>system</boxType>
+			<objectType>com.uz.wcf.warnings.mostWarnedMembers</objectType>
+			<position>sidebarRight</position>
+			<showHeader>1</showHeader>
+			<visibleEverywhere>0</visibleEverywhere>
+			<sortField>uzWarnings</sortField>
+			<sortOrder>DESC</sortOrder>
+			
+			<content language="de">
+				<title>Mitglieder mit den meisten Verwarnungen</title>
+			</content>
+			<content language="en">
+				<title>Members with the most warnings</title>
+			</content>
+		</box>
+		
+		<box identifier="com.uz.wcf.warnings.MostPointsMembers">
+			<name language="de">Mitglieder mit den meisten Verwarnungspunkten</name>
+			<name language="en">Members with the most warning points</name>
+			<boxType>system</boxType>
+			<objectType>com.uz.wcf.warnings.mostPointsMembers</objectType>
+			<position>sidebarRight</position>
+			<showHeader>1</showHeader>
+			<visibleEverywhere>0</visibleEverywhere>
+			<sortField>uzWarningPoints</sortField>
+			<sortOrder>DESC</sortOrder>
+			
+			<content language="de">
+				<title>Mitglieder mit den meisten Verwarnungspunkten</title>
+			</content>
+			<content language="en">
+				<title>Members with the most warning points</title>
+			</content>
+		</box>
+	</import>
+</data>

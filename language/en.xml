@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="en" languagename="English" countrycode="gb">
+	<category name="wcf.acp.box">
+		<item name="wcf.acp.box.boxController.com.uz.wcf.warnings.mostPointsMembers"><![CDATA[Members with the most Warning Points]]></item>
+		<item name="wcf.acp.box.boxController.com.uz.wcf.warnings.latestWarnedMembers"><![CDATA[Latest warned Members]]></item>
+		<item name="wcf.acp.box.boxController.com.uz.wcf.warnings.mostWarnedMembers"><![CDATA[Members with the most Warnings]]></item>
+	</category>
+	
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.user.profile.warning"><![CDATA[Warnings]]></item>
+		<item name="wcf.acp.group.option.user.profile.warning.canView"><![CDATA[Can see user warning count]]></item>
+		<item name="wcf.acp.group.option.user.profile.warning.canViewPoints"><![CDATA[Can see user warning points]]></item>
+	</category>
+	
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.user.warning"><![CDATA[Warnings]]></item>
+		<item name="wcf.acp.option.category.user.warning.display"><![CDATA[Display]]></item>
+		<item name="wcf.acp.option.module_warning_report"><![CDATA[Report on warning]]></item>
+		<item name="wcf.acp.option.warning_display_box_entries"><![CDATA[Box Entries]]></item>
+		<item name="wcf.acp.option.warning_display_box_hide_all"><![CDATA[Hide button “Show all“ in boxes”]]></item>
+		<item name="wcf.acp.option.warning_display_message_sidebar"><![CDATA[Show warnings in message sidebar]]></item>
+		<item name="wcf.acp.option.warning_display_userInformation"><![CDATA[Show warnings with user information]]></item>
+		<item name="wcf.acp.option.warning_points_display_message_sidebar"><![CDATA[Show warning points in message sidebar]]></item>
+		<item name="wcf.acp.option.warning_points_display_userInformation"><![CDATA[Show warning points with user information]]></item>
+	</category>
+	
+	<category name="wcf.acp.rebuildData">
+		<item name="wcf.acp.rebuildData.com.uz.wcf.warnings"><![CDATA[Rebuild User Warnings]]></item>
+		<item name="wcf.acp.rebuildData.com.uz.wcf.warnings.description"><![CDATA[Rebuilds warning data for the plugin Warnings.]]></item>
+	</category>
+	
+	<category name="wcf.acp.stat">
+		<item name="wcf.acp.stat.com.uz.wcf.warnings"><![CDATA[Warnings]]></item>
+		<item name="wcf.acp.stat.com.uz.wcf.warningPoints"><![CDATA[Warning Points]]></item>
+	</category>
+	
+	<category name="wcf.user">
+		<item name="wcf.user.sortField.uzWarnings"><![CDATA[Warnings]]></item>
+		<item name="wcf.user.sortField.uzWarningPoints"><![CDATA[Warning Points]]></item>
+	</category>
+	
+	<category name="wcf.user.condition">
+		<item name="wcf.user.condition.uzWarnings"><![CDATA[Warnings Received]]></item>
+		<item name="wcf.user.condition.uzWarningPoints"><![CDATA[Warning Points Received]]></item>
+	</category>
+	
+	<category name="wcf.user.uzwarning">
+		<item name="wcf.user.uzwarning.points.userCount"><![CDATA[{#$userProfile->uzWarningPoints} {if $userProfile->uzWarningPoints == 1}Point{else}Points{/if}]]></item>
+		<item name="wcf.user.uzwarning.report"><![CDATA[“{$moderator}” has issued a warning to “{$receiver}”.]]></item>
+		<item name="wcf.user.uzwarning.showWarnings"><![CDATA[Show warnings received by {$user->username}]]></item>
+		<item name="wcf.user.uzwarning.userCount"><![CDATA[{#$userProfile->uzWarnings} {if $userProfile->uzWarnings == 1}Warning{else}Warnings{/if}]]></item>
+		<item name="wcf.user.uzwarning.warnedMembers"><![CDATA[Members with Warnings]]></item>
+		<item name="wcf.user.uzwarning.warnedMembersPoints"><![CDATA[Members with Warning Points]]></item>
+		<item name="wcf.user.uzwarning.warnings"><![CDATA[Warnings]]></item>
+		<item name="wcf.user.uzwarning.warningPoints"><![CDATA[Warning Points]]></item>
+	</category>
+</language>

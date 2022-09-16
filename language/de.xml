@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="de">
+	<category name="wcf.acp.box">
+		<item name="wcf.acp.box.boxController.com.uz.wcf.warnings.mostPointsMembers"><![CDATA[Mitglieder mit den meisten Verwarnungspunkten]]></item>
+		<item name="wcf.acp.box.boxController.com.uz.wcf.warnings.latestWarnedMembers"><![CDATA[Zuletzt verwarnte Mitglieder]]></item>
+		<item name="wcf.acp.box.boxController.com.uz.wcf.warnings.mostWarnedMembers"><![CDATA[Mitglieder mit den meisten Verwarnungen]]></item>
+	</category>
+	
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.user.profile.warning"><![CDATA[Verwarnungen]]></item>
+		<item name="wcf.acp.group.option.user.profile.warning.canView"><![CDATA[Kann Anzahl der Verwarnungen sehen]]></item>
+		<item name="wcf.acp.group.option.user.profile.warning.canViewPoints"><![CDATA[Kann Anzahl der Verwarnungspunkte sehen]]></item>
+	</category>
+	
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.user.warning"><![CDATA[Verwarnungen]]></item>
+		<item name="wcf.acp.option.category.user.warning.display"><![CDATA[Anzeige]]></item>
+		<item name="wcf.acp.option.module_warning_report"><![CDATA[Meldung bei Verwarnung]]></item>
+		<item name="wcf.acp.option.warning_display_box_entries"><![CDATA[Einträge in der Box]]></item>
+		<item name="wcf.acp.option.warning_display_box_hide_all"><![CDATA[Schaltfläche „Alle anzeigen“ in Boxen ausblenden]]></item>
+		<item name="wcf.acp.option.warning_display_message_sidebar"><![CDATA[Verwarnungen in Seitenleiste anzeigen]]></item>
+		<item name="wcf.acp.option.warning_display_userInformation"><![CDATA[Verwarnungen bei Benutzerinformationen anzeigen]]></item>
+		<item name="wcf.acp.option.warning_points_display_message_sidebar"><![CDATA[Verwarnungspunkte in Seitenleiste anzeigen]]></item>
+		<item name="wcf.acp.option.warning_points_display_userInformation"><![CDATA[Verwarnungspunkte bei Benutzerinformationen anzeigen]]></item>
+	</category>
+	
+	<category name="wcf.acp.rebuildData">
+		<item name="wcf.acp.rebuildData.com.uz.wcf.warnings"><![CDATA[Benutzer-Verwarnungen aktualisieren]]></item>
+		<item name="wcf.acp.rebuildData.com.uz.wcf.warnings.description"><![CDATA[Aktualisiert Verwarnungsdaten für das Plugin Verwarnungen.]]></item>
+	</category>
+	
+	<category name="wcf.acp.stat">
+		<item name="wcf.acp.stat.com.uz.wcf.warnings"><![CDATA[Verwarnungen]]></item>
+		<item name="wcf.acp.stat.com.uz.wcf.warningPoints"><![CDATA[Verwarnungspunkte]]></item>
+	</category>
+	
+	<category name="wcf.user">
+		<item name="wcf.user.sortField.uzWarnings"><![CDATA[Verwarnungen]]></item>
+		<item name="wcf.user.sortField.uzWarningPoints"><![CDATA[Verwarnungspunkte]]></item>
+	</category>
+	
+	<category name="wcf.user.condition">
+		<item name="wcf.user.condition.uzWarnings"><![CDATA[Erhaltene Verwarnungen]]></item>
+		<item name="wcf.user.condition.uzWarningPoints"><![CDATA[Erhaltene Verwarnungspunkte]]></item>
+	</category>
+	
+	<category name="wcf.user.uzwarning">
+		<item name="wcf.user.uzwarning.points.userCount"><![CDATA[{#$userProfile->uzWarningPoints} {if $userProfile->uzWarningPoints == 1}Punkt{else}Punkte{/if}]]></item>
+		<item name="wcf.user.uzwarning.report"><![CDATA[„{$moderator}“ hat eine Verwarnung gegen „{$receiver}“ ausgesprochen.]]></item>
+		<item name="wcf.user.uzwarning.showWarnings"><![CDATA[Verwarnungen von {$user->username} anzeigen]]></item>
+		<item name="wcf.user.uzwarning.userCount"><![CDATA[{#$userProfile->uzWarnings} {if $userProfile->uzWarnings == 1}Verwarnung{else}Verwarnungen{/if}]]></item>
+		<item name="wcf.user.uzwarning.warnedMembers"><![CDATA[Mitglieder mit Verwarnungen]]></item>
+		<item name="wcf.user.uzwarning.warnedMembersPoints"><![CDATA[Mitglieder mit Verwarnungspunkten]]></item>
+		<item name="wcf.user.uzwarning.warnings"><![CDATA[Verwarnungen]]></item>
+		<item name="wcf.user.uzwarning.warningPoints"><![CDATA[Verwarnungspunkte]]></item>
+	</category>
+</language>
