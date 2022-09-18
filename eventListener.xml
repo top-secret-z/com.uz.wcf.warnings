@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/eventListener.xsd">
-	<import>
-		<eventlistener name="warningAdminInfraction">
-			<eventclassname>wcf\data\user\infraction\warning\UserInfractionWarningAction</eventclassname>
-			<eventname>finalizeAction</eventname>
-			<environment>admin</environment>
-			<listenerclassname>wcf\system\event\listener\WarningInfractionListener</listenerclassname>
-		</eventlistener>
-		<eventlistener name="warningUserInfraction">
-			<eventclassname>wcf\data\user\infraction\warning\UserInfractionWarningAction</eventclassname>
-			<eventname>finalizeAction</eventname>
-			<environment>user</environment>
-			<listenerclassname>wcf\system\event\listener\WarningInfractionListener</listenerclassname>
-		</eventlistener>
-		
-		<eventlistener name="membersListWarnings">
-			<eventclassname>wcf\page\MembersListPage</eventclassname>
-			<eventname>readParameters</eventname>
-			<listenerclassname>wcf\system\event\listener\WarningMembersListPageListener</listenerclassname>
-		</eventlistener>
-		
-		<eventlistener name="statisticsBox">
-			<eventclassname>wcf\system\box\StatisticsBoxController</eventclassname>
-			<eventname>beforeLoadContent</eventname>
-			<listenerclassname>wcf\system\event\listener\WarningStatisticsBoxControllerListener</listenerclassname>
-		</eventlistener>
-	</import>
+    <import>
+        <eventlistener name="warningAdminInfraction">
+            <eventclassname>wcf\data\user\infraction\warning\UserInfractionWarningAction</eventclassname>
+            <eventname>finalizeAction</eventname>
+            <environment>admin</environment>
+            <listenerclassname>wcf\system\event\listener\WarningInfractionListener</listenerclassname>
+        </eventlistener>
+        <eventlistener name="warningUserInfraction">
+            <eventclassname>wcf\data\user\infraction\warning\UserInfractionWarningAction</eventclassname>
+            <eventname>finalizeAction</eventname>
+            <environment>user</environment>
+            <listenerclassname>wcf\system\event\listener\WarningInfractionListener</listenerclassname>
+        </eventlistener>
+
+        <eventlistener name="membersListWarnings">
+            <eventclassname>wcf\page\MembersListPage</eventclassname>
+            <eventname>readParameters</eventname>
+            <listenerclassname>wcf\system\event\listener\WarningMembersListPageListener</listenerclassname>
+        </eventlistener>
+
+        <eventlistener name="statisticsBox">
+            <eventclassname>wcf\system\box\StatisticsBoxController</eventclassname>
+            <eventname>beforeLoadContent</eventname>
+            <listenerclassname>wcf\system\event\listener\WarningStatisticsBoxControllerListener</listenerclassname>
+        </eventlistener>
+    </import>
 </data>
