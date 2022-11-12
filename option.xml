@@ -1,61 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/option.xsd">
-	<import>
-		<categories>
-			<category name="user.warning">
-				<parent>user</parent>
-			</category>
-			<category name="user.warning.display">
-				<parent>user.warning</parent>
-			</category>
-		</categories>
-		
-		<options>
-			<!-- show in message sidebar -->
-			<option name="warning_display_message_sidebar">
-				<categoryname>user.warning.display</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>1</defaultvalue>
-			</option>
-			<option name="warning_points_display_message_sidebar">
-				<categoryname>user.warning.display</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>0</defaultvalue>
-			</option>
-			
-			<!-- show in members list -->
-			<option name="warning_display_userInformation">
-				<categoryname>user.warning.display</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>1</defaultvalue>
-			</option>
-			<option name="warning_points_display_userInformation">
-				<categoryname>user.warning.display</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>0</defaultvalue>
-			</option>
-			
-			<!-- box entries -->
-			<option name="warning_display_box_entries">
-				<categoryname>user.warning.display</categoryname>
-				<optiontype>integer</optiontype>
-				<defaultvalue>5</defaultvalue>
-				<minvalue>1</minvalue>
-				<maxvalue>50</maxvalue>
-			</option>
-			<option name="warning_display_box_hide_all">
-				<categoryname>user.warning.display</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>0</defaultvalue>
-			</option>
-			
-			<!-- report -->
-			<option name="module_warning_report">
-				<categoryname>module.user</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>1</defaultvalue>
-				<showorder>2</showorder>
-			</option>
-		</options>
-	</import>
+    <import>
+        <categories>
+            <category name="user.warning">
+                <parent>user</parent>
+            </category>
+            <category name="user.warning.display">
+                <parent>user.warning</parent>
+            </category>
+        </categories>
+
+        <options>
+            <!-- show in message sidebar -->
+            <option name="warning_display_message_sidebar">
+                <categoryname>user.warning.display</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>1</defaultvalue>
+            </option>
+            <option name="warning_points_display_message_sidebar">
+                <categoryname>user.warning.display</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>0</defaultvalue>
+            </option>
+
+            <!-- show in members list -->
+            <option name="warning_display_userInformation">
+                <categoryname>user.warning.display</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>1</defaultvalue>
+            </option>
+            <option name="warning_points_display_userInformation">
+                <categoryname>user.warning.display</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>0</defaultvalue>
+            </option>
+
+            <!-- box entries -->
+            <option name="warning_display_box_entries">
+                <categoryname>user.warning.display</categoryname>
+                <optiontype>integer</optiontype>
+                <defaultvalue>5</defaultvalue>
+                <minvalue>1</minvalue>
+                <maxvalue>50</maxvalue>
+            </option>
+            <option name="warning_display_box_hide_all">
+                <categoryname>user.warning.display</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>0</defaultvalue>
+            </option>
+
+            <!-- report -->
+            <option name="module_warning_report">
+                <categoryname>module.user</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>1</defaultvalue>
+                <showorder>2</showorder>
+            </option>
+        </options>
+    </import>
 </data>
